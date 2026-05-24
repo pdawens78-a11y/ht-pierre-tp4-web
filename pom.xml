@@ -67,6 +67,17 @@
             <artifactId>langchain4j-google-ai-gemini</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-document-parser-apache-tika</artifactId>
+            <version>1.12.1-beta21</version>
+        </dependency>
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-embeddings-all-minilm-l6-v2</artifactId>
+            <version>1.12.1-beta21</version>
+        </dependency>
+
         <!-- Embedding local AllMiniLM (vectorisation des chunks PDF) -->
         <dependency>
             <groupId>dev.langchain4j</groupId>
